@@ -42,7 +42,8 @@ function unityShowBanner(msg, type) {
 var buildUrl = "Build";
 var loaderUrl = buildUrl + "/portfolio-web.loader.js";
 var config = {
-  dataUrl: buildUrl + "/portfolio-web.data",
+  // dataUrl: buildUrl + "/portfolio-web.data",
+  dataUrl: "https://media.githubusercontent.com/media/yeqwer/portofolio-build/main/public/Build/portfolio-web.data",
   frameworkUrl: buildUrl + "/portfolio-web.framework.js",
   codeUrl: buildUrl + "/portfolio-web.wasm",
   streamingAssetsUrl: "StreamingAssets",
